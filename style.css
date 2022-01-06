@@ -96,9 +96,19 @@ width: 65%;
 /* ===== My Mission Section Starts ===== */
 
 /* ====== Devoloment Limit Section Starts ======  */
+.Devolopment-section{
+  background-image: url(./Images/shapes/shape-1.png);
+  background-size: 300px;
+  background-position:left;
+  background-repeat: no-repeat;
+}
+#Devolopmentlimit{
+  margin-left: 7%;
+}
 
 #Devolopmentlimit img{
   width: 80%;
+ 
 }
 
 .Devolopment-title{
@@ -108,3 +118,21 @@ width: 65%;
 }
 /* ====== Devoloment Limit Section Starts ======  */
 
+/*  ===== Global Section Starts ======*/
+
+.Global-section{
+  background-image: url(./Images/shapes/shape-1.png);
+  background-size: 250px;
+  background-position:right bottom;
+  background-repeat: no-repeat;
+}
+
+/*  ===== Global Section Starts ======*/
+
+/* ====== Application Section Starts ====== */
+
+#Application{
+font-size: 55px;
+}
+
+/* ====== Application Section Starts ====== */
