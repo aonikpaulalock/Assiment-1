@@ -49,6 +49,7 @@ width: 65%;
   color: white;
   border-radius: 5px;
   margin-left: 10px;
+  font-size: 20px;
 }
 
 /* ====== Top Banner Section Ends ===== */
@@ -93,4 +94,17 @@ width: 65%;
 }
 
 /* ===== My Mission Section Starts ===== */
+
+/* ====== Devoloment Limit Section Starts ======  */
+
+#Devolopmentlimit img{
+  width: 80%;
+}
+
+.Devolopment-title{
+  font-size: 55px;
+  margin-bottom: 0px;
+  
+}
+/* ====== Devoloment Limit Section Starts ======  */
 
