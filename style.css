@@ -1,12 +1,11 @@
-.body{
+body{
   font-family: 'Hind Siliguri', sans-serif;
   margin: 0;
   padding: 0;
 }
 section{
-  width: 1140px;
-  margin: 0 auto;
   margin-bottom: 100px;
+  
 }
 /* ====== Top Banner Section Starts ===== */
 
@@ -17,15 +16,16 @@ section{
   display: flex;
 }
 .half-width {
-  width: 48%;
-  margin-left: 5%;
+  width: 50%;
+  margin-left: 4%;
 }
 .left-border{
-  border-left: 2px solid rgb(231, 165, 165);
+  border-left: 5px solid rgb(235, 84, 84);
+  border-radius: 8px;
 
 }
 .mission-title{
-  font-size: 50px;
+  font-size: 55px;
   margin-left: 10px;
   margin-bottom: 0px;
 }
@@ -43,7 +43,7 @@ width: 65%;
   padding:20px 0px;
 }
 .explore-btn{
-  background-color: brown;
+  background-color: rgb(235, 84, 84);
   text-decoration: none;
   padding: 15px 30px;
   color: white;
@@ -51,6 +51,46 @@ width: 65%;
   margin-left: 10px;
 }
 
-
-
 /* ====== Top Banner Section Ends ===== */
+
+/* ===== My Mission Section Starts ===== */
+.My-Mission-title{
+  text-align: center;
+  font-size: 40px;
+}
+.My-Mission-span{
+  color: orange;
+}
+.My-Mission-flex{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-around;
+}
+
+.My-Mission-box{
+  flex-basis: 30%;
+  border-radius: 20px;
+}
+
+#illustrators1{
+  background-color: rgba(192, 229, 240, 0.322);
+}
+
+#illustrators2{
+  background-color: rgba(240, 228, 165, 0.322);
+}
+
+#illustrators3{
+  background-color: rgba(218, 158, 253, 0.322);
+}
+
+.My-Mission-box img{
+  width: 50%;
+}
+
+.My-Mission-content{
+  padding: 20px;
+}
+
+/* ===== My Mission Section Starts ===== */
+
